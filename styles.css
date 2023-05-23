@@ -16,7 +16,7 @@ a {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1.6fr 0.5fr 0.8fr 1fr 60px;
+  grid-template-rows: 1.6fr 0.5fr 0.6fr 1fr 60px;
   justify-items: center;
   align-items: center;
   text-align: center;
@@ -113,7 +113,7 @@ a {
 }
 
 .product-name {
-  margin: 10px 0;
+  padding: 10px 0;
 }
 
 .bold-title {
@@ -121,11 +121,6 @@ a {
   font-size: 28px;
   padding-top: 50px;
   padding-bottom: 20px;
-}
-
-.centered-content {
-  margin-left: 50px;
-  margin-right: 50px;
 }
 
 .products-row {
@@ -137,7 +132,7 @@ a {
 .products {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 
 .product-photo {
@@ -189,6 +184,7 @@ button {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
 }
+
 #header-button {
   background-color: rgb(195, 239, 251);
   width: 20%;
@@ -196,6 +192,7 @@ button {
   font-size: 25px;
   margin-bottom: 20px;
 }
+
 #header-button:hover {
   background-color: rgb(255, 255, 255);
   border-right: 3px solid black;
@@ -211,6 +208,7 @@ button {
   height: 15%;
   font-size: 16px;
 }
+
 .buy-button:hover {
   background-color: rgb(255, 255, 255);
   width: 20%;
@@ -232,6 +230,7 @@ button {
 .footer-item a {
   color: #ececec;
 }
+
 .footer-item > a:hover {
   border-bottom: 3px solid #ececec;
 }
